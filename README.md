@@ -17,6 +17,11 @@ pip install torch torchvision torchaudio
 pip install scipy
 
 
+## Notes on roBerTa
+
+It'll pick out shady URLs e.g. http://illegalDrugs.coom and flag them as Neutral. Thus a human can be available in the frontEnd to verify the information. 
+
+
 
 
 

@@ -1,6 +1,9 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from scipy.special import softmax
 
+flagged_negative_tweets = []
+flagged_neutral_tweets = []
+
 # tweet = "@MehranShakarami today's cold @ home 😒 https://mehranshakarami.com"
 #tweet = 'Going to commit this crime'
 # tweet = 'I killed a man'

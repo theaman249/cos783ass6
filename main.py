@@ -11,7 +11,6 @@ labels = ['Negative', 'Neutral', 'Positive']
 # tweet = "@MehranShakarami today's cold @ home 😒 https://mehranshakarami.com"
 #tweet = 'Going to commit this crime'
 # tweet = 'I killed a man'
-tweet = ' @John selling cocaine. It is bad for my clients. But I am making money http://drugs.com'
 # tweet = 'So happy for my life'
 
 
@@ -29,6 +28,10 @@ def pre_process_data(fn_tweet):
         tweet_words.append(word)
     
     return tweet_words
+
+# tweet processing area
+
+tweet = ' @John selling cocaine. It is bad for my clients. But I am making money http://drugs.com'
 
 tweet_proc = " ".join(pre_process_data(tweet)) #after the tweet has been cleaned. Tweet processed.
 
